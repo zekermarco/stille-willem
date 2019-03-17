@@ -16,7 +16,7 @@ const fs = require('fs');
 const client = new Discord.Client();
 const version = '3.1.6';
 const prefix = cfg.prefix;
-const patatChance = 5
+const patatChance = 5;
 
 /**
  * Get IDs from the config file.
@@ -991,7 +991,7 @@ function giveRole(msg, args, role, takeMakkersRole) {
 
 function getMembersFromMessage(msg, args, role, mode) {
     let tags = getTags(args);
-    let members = new Array();
+    let members = [];
 
     if (tags.length == 0) {
         sendErrorMessage(msg.channel, `Er zijn geen gebruikers opgegeven!`);
@@ -1039,7 +1039,7 @@ function getMembersFromMessage(msg, args, role, mode) {
 }
 
 function getTags(args) {
-    let tags = new Array();
+    let tags = [];
 
     for (let i = 1; i < args.length; i++) {
         const el = args[i];
