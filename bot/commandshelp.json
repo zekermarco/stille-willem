@@ -1,0 +1,145 @@
+[
+    {
+        "command": "help",
+        "function": "Geeft hulp over een bepaald commando.",
+        "info": "Als er een argument wordt meegegeven aan het `-help` commando, dan moet dit een commando zijn.\nWordt er geen argument meegegeven, dan worden alle mogelijke commando's gegeven.",
+        "usage": "-help [commando]",
+        "examples": [
+            {"example": "-help", "info": "Laat alle mogelijke commando's zien."},
+            {"example": "-help zeg", "info": "Geeft informatie over het `-zeg` commando."}
+        ]
+    },
+    {
+        "command": "zeg",
+        "function": "Plaatst een bericht in een bepaald kanaal met de bot.",
+        "info": "Er kan een bericht geplaatst worden in het gespecificeerde kanaal. Een kanaal kan gespecificeerd worden door eerst een bericht te typen en dan met > #kanaal een kanaal mee te geven.",
+        "usage": "-zeg <bericht> [> #kanaal]",
+        "examples": [
+            {"example": "-zeg He hallo daar.", "info": "Plaatst een bericht in het kanaal waar het commando werd opgegeven."},
+            {"example": "-zeg He hallo daar. > #stamkroeg", "info": "Plaatst een bericht in het kanaal `#stamkroeg`. Let op! Voor en na de `>` moet een spatie!"}
+        ]
+    },
+    {
+        "command": "kokosnoot",
+        "function": "Geeft de Kokosnoot rol aan één of meerdere gebruikers.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden. De tijd kan worden gespecificeerd in dagen, uren, minuten of seconden met resp. d, u, m of s. Er kan ook een tijdstip gespecificeerd worden. Als er geen tijd is gespecificeerd wordt de standaardtijd van 24 uur aangehouden.",
+        "usage": "-kokosnoot <gebruikers> [reden] [tijd|tijdstip]",
+        "examples": [
+            {"example": "-kokosnoot MikeDeKokkie#0001 Dit is een reden. 5u", "info": "Kokosnoot `MikeDeKokkie#0001` met reden `Dit is een reden.` voor 5 uur."},
+            {"example": "-kokosnoot PeerHeer#0910 Dit is nog een reden! 4:00", "info": "Kokosnoot `PeerHeer#0910` met reden `Dit is nog een reden!` tot 4:00 uur."}
+        ]
+    },
+    {
+        "command": "ontkokosnoot",
+        "function": "Neemt de Kokosnoot rol van één of meerdere gebruikers af.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden.",
+        "usage": "-ontkokosnoot <gebruikers>",
+        "examples": [
+            {"example": "-ontkokosnoot PeerHeer#0910 MikeDeKokkie#0001", "info": "Neemt de Kokosnoot rol van `PeerHeer#0910` en `MikeDeKokkie#0001` weg."}
+        ]
+    },
+    {
+        "command": "koloniseer",
+        "function": "Geeft de Gekoloniseerd rol aan één of meerdere gebruikers.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden. De tijd kan worden gespecificeerd in dagen, uren, minuten of seconden met resp. d, u, m of s. Er kan ook een tijdstip gespecificeerd worden. Als er geen tijd is gespecificeerd wordt de standaardtijd van 24 uur aangehouden.",
+        "usage": "-koloniseer <gebruikers> [reden] [tijd|tijdstip]",
+        "examples": [
+            {"example": "-koloniseer MikeDeKokkie#0001 Dit is een reden. 5u", "info": "Koloniseert `MikeDeKokkie#0001` met reden `Dit is een reden.` voor 5 uur."},
+            {"example": "-koloniseer PeerHeer#0910 Dit is nog een reden! 4:00", "info": "Koloniseert `PeerHeer#0910` met reden `Dit is nog een reden!` tot 4:00 uur."}
+        ]
+    },
+    {
+        "command": "ontkoloniseer",
+        "function": "Neemt de Gekoloniseerd rol van één of meerdere gebruikers af.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden.",
+        "usage": "-ontkoloniseer <gebruikers>",
+        "examples": [
+            {"example": "-ontkoloniseer PeerHeer#0910 MikeDeKokkie#0001", "info": "Neemt de Gekoloniseerd rol van `PeerHeer#0910` en `MikeDeKokkie#0001` weg."}
+        ]
+    },
+    {
+        "command": "stamkroegverbod",
+        "function": "Geeft de Stamkroegverbod rol aan één of meerdere gebruikers.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden. De tijd kan worden gespecificeerd in dagen, uren, minuten of seconden met resp. d, u, m of s. Er kan ook een tijdstip gespecificeerd worden. Als er geen tijd is gespecificeerd wordt de standaardtijd van 24 uur aangehouden.",
+        "usage": "-stamkroegverbod <gebruikers> [reden] [tijd|tijdstip]",
+        "examples": [
+            {"example": "-stamkroegverbod MikeDeKokkie#0001 Dit is een reden. 5u", "info": "Geeft `MikeDeKokkie#0001` Stamkroegverbod met reden `Dit is een reden.` voor 5 uur."},
+            {"example": "-stamkroegverbod PeerHeer#0910 Dit is nog een reden! 4:00", "info": "Geeft `PeerHeer#0910` Stamkroegverbod met reden `Dit is nog een reden!` tot 4:00 uur."}
+        ]
+    },
+    {
+        "command": "stamkroegtoelating",
+        "function": "Neemt de Stamkroegverbod rol van één of meerdere gebruikers af.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden.",
+        "usage": "-stamkroegtoelating <gebruikers>",
+        "examples": [
+            {"example": "-stamkroegtoelating PeerHeer#0910 MikeDeKokkie#0001", "info": "Neemt de Stamkroegverbod rol van `PeerHeer#0910` en `MikeDeKokkie#0001` weg."}
+        ]
+    },
+    {
+        "command": "inhetzonnetje",
+        "function": "Geeft de In het Zonnetje rol aan één of meerdere gebruikers.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden. De tijd kan worden gespecificeerd in dagen, uren, minuten of seconden met resp. d, u, m of s. Er kan ook een tijdstip gespecificeerd worden. Als er geen tijd is gespecificeerd wordt de standaardtijd van 24 uur aangehouden.",
+        "usage": "-inhetzonnetje <gebruikers> [reden] [tijd|tijdstip]",
+        "examples": [
+            {"example": "-inhetzonnetje MikeDeKokkie#0001 Dit is een reden. 5u", "info": "Geeft `MikeDeKokkie#0001` In het Zonnetje met reden `Dit is een reden.` voor 5 uur."},
+            {"example": "-inhetzonnetje PeerHeer#0910 Dit is nog een reden! 4:00", "info": "Geeft `PeerHeer#0910` In het Zonnetje met reden `Dit is nog een reden!` tot 4:00 uur."}
+        ]
+    },
+    {
+        "command": "uithetzonnetje",
+        "function": "Neemt de In het Zonnetje rol van één of meerdere gebruikers af.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden.",
+        "usage": "-uithetzonnetje <gebruikers>",
+        "examples": [
+            {"example": "-uithetzonnetje PeerHeer#0910 MikeDeKokkie#0001", "info": "Neemt de In het Zonnetje rol van `PeerHeer#0910` en `MikeDeKokkie#0001` weg."}
+        ]
+    },
+    {
+        "command": "emoteloos",
+        "function": "Geeft de Emoteloos rol aan één of meerdere gebruikers.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden. De tijd kan worden gespecificeerd in dagen, uren, minuten of seconden met resp. d, u, m of s. Er kan ook een tijdstip gespecificeerd worden. Als er geen tijd is gespecificeerd wordt de standaardtijd van 24 uur aangehouden.",
+        "usage": "-emoteloos <gebruikers> [reden] [tijd|tijdstip]",
+        "examples": [
+            {"example": "-emoteloos MikeDeKokkie#0001 Dit is een reden. 5u", "info": "Geeft `MikeDeKokkie#0001` Emoteloos met reden `Dit is een reden.` voor 5 uur."},
+            {"example": "-emoteloos PeerHeer#0910 Dit is nog een reden! 4:00", "info": "Geeft `PeerHeer#0910` Emoteloos met reden `Dit is nog een reden!` tot 4:00 uur."}
+        ]
+    },
+    {
+        "command": "emoterijk",
+        "function": "Neemt de Emoteloos rol van één of meerdere gebruikers af.",
+        "info": "Er kunnen meerdere gebruikers gespecificeerd worden.",
+        "usage": "-emoterijk <gebruikers>",
+        "examples": [
+            {"example": "-emoterijk PeerHeer#0910 MikeDeKokkie#0001", "info": "Neemt de Emoteloos rol van `PeerHeer#0910` en `MikeDeKokkie#0001` weg."}
+        ]
+    },
+    {
+        "command": "tijd",
+        "function": "Wijzigt de tijd van een rol.",
+        "info": "De tijd kan worden gespecificeerd als aantal dagen/uren/minuten/seconden vanaf nu, of als een tijdstip. Er kunnen meerdere gebruikers gespecificeerd worden.",
+        "usage": "tijd <gebruikers> <rolnaam> <tijd|tijdstip>",
+        "examples": [
+            {"example": "-tijd PeerHeer#0910 Kokosnoot 4:00", "info": "Wijzigt de tijd voor de rol `Kokosnoot` van `PeerHeer#0910` naar `4:00`."},
+            {"example": "-tijd MikeDeKokkie#0001 Gekoloniseerd 8u", "info": "Wijzigt de tijd voor de rol `Gekoloniseerd` van `MikeDeKokkie#0001` naar 8 uur vanaf nu."}
+        ]
+    },
+    {
+        "command": "dbcontents",
+        "function": "Laat de inhoud van de database zien.",
+        "info": "Laat de inhoud van de database voor rollen zien, met o.a. de gestrafte, de straffer, de tijd, etc. Laat 10 entries per pagina zien.",
+        "usage": "-dbcontents",
+        "examples": [
+            {"example": "-dbcontents", "info": "Laat de eerste 10 entries van de database zien."}
+        ]
+    },
+    {
+        "command": "dbcleanup",
+        "function": "Schoont de database op.",
+        "info": "Schoont de database op door ongebruikte items of duplicates te verwijderen. Je kunt dit gebruiken wanneer er een persoon met een strafrol verbannen is.",
+        "usage": "-dbcleanup",
+        "examples": [
+            {"example": "-dbcleanup", "info": "Schoont de database op."}
+        ]
+    }
+]

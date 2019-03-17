@@ -1,0 +1,23 @@
+{
+    "rolecommands": {
+        "kokosnoot": "Geeft de Kokosnoot rol aan één of meerdere gebruikers.",
+        "ontkokosnoot": "Haalt de Kokosnoot rol van één of meerdere gebruikers weg.",
+        "koloniseer": "Geeft de Gekoloniseerd rol aan één of meerdere gebruikers.",
+        "ontkoloniseer": "Haalt de Gekoloniseerd rol van één of meerdere gebruikers weg.",
+        "stamkroegverbod": "Geeft de Stamkroegverbod rol aan één of meerdere gebruikers.",
+        "stamkroegtoelating": "Haalt de Stamkroegverbod rol van één of meerdere gebruikers weg.",
+        "inhetzonnetje": "Geeft de In het Zonnetje rol aan één of meerdere gebruikers.",
+        "uithetzonnetje": "Haalt de In het Zonnetje rol van één of meerdere gebruikers weg.",
+        "emoteloos": "Geeft de Emoteloos rol aan één of meerdere gebruikers.",
+        "emoterijk": "Haalt de Emoteloos rol van één of meerdere gebruikers weg."
+    },
+    "databasecommands": {
+        "dbcontents": "Laat de inhoud van de database zien.",
+        "dbcleanup": "Verwijdert verouderde/verkeerde entries uit de database."
+    },
+    "misc": {
+        "zeg": "Plaatst een bericht in een kanaal via de bot.",
+        "help": "Laat deze dialoog zien. Door een commando als argument mee te geven krijg je een uitgebreidere uitleg.",
+        "tijd": "Wijzigt de tijd van een gegeven rol."
+    }
+}

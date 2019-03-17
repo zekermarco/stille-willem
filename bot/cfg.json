@@ -1,0 +1,27 @@
+{
+    "prefix": "-",
+    "version": "3.1.0",
+    "bot": "552582185732014120",
+    "guild": "165923326437359616",
+    "roles": {
+        "kokosnoot": "507256528080994314",
+        "gekoloniseerd": "364704444832677888",
+        "inhetzonnetje": "432468733685137419",
+        "stamkroegverbod": "482824963632398348",
+        "emoteloos": "484310745815973889",
+        "makkers": "408013538838315018",
+        "international": "471683203816751105"
+    },
+    "channels": {
+        "schandpaal": "366598881691303948",
+        "moderatiezaken": "445692042400497670",
+        "log": "392750486668967943"
+    },
+    "defaultduration": {
+        "kokosnoot": 24,
+        "gekoloniseerd": 48,
+        "inhetzonnetje": 24,
+        "stamkroegverbod": "8:00",
+        "emoteloos": 24
+    }
+}
